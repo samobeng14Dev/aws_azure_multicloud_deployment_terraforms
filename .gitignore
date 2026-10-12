@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+!terraform/terraform.tfvars.example
+crash.log
+
+# Secrets and local files
+secrets/
+.env
+*.pem
+website/config.js
+
+# OS / editor
+.DS_Store
+.vscode/

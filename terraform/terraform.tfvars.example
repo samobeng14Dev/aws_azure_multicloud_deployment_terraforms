@@ -1,0 +1,5 @@
+# Copy to terraform.tfvars (git-ignored) and set your own values.
+aws_region  = "eu-north-1"
+bucket_name = "weather-tracker-yourname-0000"
+azure_storage_account_name = "weatheryourname0000"
+domain_name = "yourdomain.example
